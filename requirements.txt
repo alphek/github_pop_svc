@@ -7,3 +7,4 @@ pytest-django==3.8.0
 six==1.16.0
 python-memcached==1.59.0
 requests==2.27.1
+django-health-check==3.16.5

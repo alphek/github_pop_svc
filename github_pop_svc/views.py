@@ -11,7 +11,6 @@ class GithubPopViewSet(viewsets.ViewSet):
     def retrieve_github_popularity(self, request, username, repository_name):
         cache_key = "{}_{}_is_popular".format(username, repository_name)
         is_popular = cache.get(cache_key)
-        print(is_popular)
         if is_popular is None:
             info_json = get_repository_info(username, repository_name)
             is_popular = is_repo_popular(info_json["stargazers_count"], info_json["forks_count"])
