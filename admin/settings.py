@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'health_check.cache',
     'health_check.storage',
     'health_check.contrib.migrations',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
@@ -85,4 +86,5 @@ GITHUB = {
     'username': "pophubpop",
     'token': "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"
 }
+
 
