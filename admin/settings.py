@@ -84,7 +84,7 @@ CACHES = {
 
 GITHUB = {
     'username': "pophubpop",
-    'token': "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"
+    'token': "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"
 }
 
 
