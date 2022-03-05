@@ -22,4 +22,4 @@ class TestDiscountCodeAPIViews(TestCase):
         assert response.status_code == status.HTTP_200_OK
         assert response.json()["data"]["is_popular"]
 
-    # More tests should be added to test error cases
+    # More tests should be added to test error cases or for Unit testing
