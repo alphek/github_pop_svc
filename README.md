@@ -19,6 +19,9 @@ This project provides an API to check the popularity of public GitHub repositori
 - This service has no logging and docker containers does not expose it logs to outside of container. Service needs
   better logging and monitoring
 - Further statistics can be added to system status page(health_check)
+- Django-rest-swagger library is no longer maintained. I used a third-party library(drf-yasg) to implement automated
+  swagger documentation. The library seems secure and popular among the community but If I use it for a commercial
+  product I would have more search over it and maybe more testing over it.
 
 ---
 
